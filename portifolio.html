@@ -23,6 +23,7 @@
                 font-size: 50px;
                 color: #FF6347;
                 line-height: 25%;
+                text-align: center;
              }
              h4 {
                 font-family: 'Karla', sans-serif;
@@ -30,43 +31,68 @@
                 color: #FF6347;
                 font-weight: 100;
                 line-height: 25%;
+                text-align: center;
              }
+
              a { font-family: 'Karla', sans-serif;
                 font-size: 90%;
-                color: #FF6347;
+                color: white;
                 text-decoration: none;
                 border: solid;
                 border-color: #FF6347;
                 border-width: 50%;  
                 border-style: ridge;
-
-                 
              }
+
 
              img { border-radius: 100%;
                 border-style: dashed;
                 border-color: #FF6347;
                 border-width: 200%;
              }
+             p { text-align: center;
+                list-style-type: none
+             }
+             ul{text-align: center;
+             }
+             .inside { list-style-type: none;
+                list-style-position: inside;
+             }
+             strong {
+                color: #FF6347;
+             }
+             .button { background-color: #FF6347;
+                padding: 0,7% ;
+             }
+             .sobre-mim {text-align: justify;
+             }
+             .jessi-img {
+                text-align: center;
+             }
         </style>
   </head>
   <body>
         
-     <h1 class="titulo">JESSICA SIQUEIRA</h1>
+     <h1>JESSICA SIQUEIRA</h1>
      <h4>DESENVOLVIMENTO WEB - TRYBE</h4>
-     <P></P>
-     <P></P>
-     <P></P>
+               
      <P>Hello, world! Tenho 26 anos, sou licenciada em História pela UFRRJ e estou em transição de carreira. Até então desenvolvi as seguintes habilidades como estudante de desenvolvimento web:</P>
-        <ul> 
-         <li>Git/GitHub</li>
-         <li>HTML5</li>
-         <li>CSS3</li>
+
+       <ul> 
+         <li class="inside square">Git/GitHub</li>
+         <li class="inside square">HTML5</li>
+         <li class="inside square" >CSS3</li>
        </ul>
-        
+     <div class="jessi-img">   
      <img src="jessi.jpg" alt="meu avatar";  width="200">
+     </div>
+     <p>
+     <a class="button" href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BxiQOuxBWTiqoPICuascAXg%3D%3D"> Linkedin</a>
+     </p>
+     <p>
+     <strong>SOBRE MIM:</strong>
+     </p>
+     <P class="sobre-mim">Depois de anos me dedicando a educação, decidi transicionar de carreira e ir para a área tec. Apesar de não conhecer muito sobre o mundo do desenvolvimento web, estou muito empenhada em aprender e tenho evoluído bem com o passar do tempo. Além disso, estar tanto tempo em sala de aula me fez desenvolver algumas soft skills muito importantes para área, são elas: comunicação, cooperação, silêncio proativo, resiliência, boa gestão do tempo, autoliderança e empatia. Habilidades que vão me ajudar a evoluir como pessoa estudante e ser uma boa desenvolvedora em um futuro próximo. </P>
         
-       
-     <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BxiQOuxBWTiqoPICuascAXg%3D%3D"> Linkedin</a>
  </body>
 </html>
